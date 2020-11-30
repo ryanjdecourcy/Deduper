@@ -1,3 +1,9 @@
+Use this bash command to sort the file by chromosome number, prior to running the deduper python script
+samtools sort -o test_sorted.sam test.sam
+
+======================================
+
+# Deduper script
 #!/usr/bin/env python
 
 import re
